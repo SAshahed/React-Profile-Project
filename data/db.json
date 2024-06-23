@@ -1,0 +1,30 @@
+{
+    "cases": [
+        {
+            "id": 1,
+            "name": "Shahed",
+            "address": "Hathazari,Chittagong",
+            "date": "02/01/2024",
+            "order": "Pw",
+            "nextdate": "02/02/2024"
+        },
+        {
+            "id": 2,
+            "name": "SM Rana",
+            "address": "Shatkhaniya,Chittagong",
+            "date": "02/01/2024",
+            "order": "SW",
+            "nextdate": "02/02/2024"
+            
+        },
+        {
+            "id": 3,
+            "name": "SM Shaful",
+            "address": "Nasirabad,Chittagong",
+            "date": "02/01/2024",
+            "order": "SW",
+            "nextdate": "02/02/2024"
+            
+        }
+    ]
+} 

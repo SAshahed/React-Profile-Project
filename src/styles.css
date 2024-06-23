@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700@display=swap');
+
+:root{
+  --primary: #bc4123;
+  --secendary:#2b2343;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  
+  background: var(--secendary);
+}
+
+* {
+  color: #fff;
+  margin: 0;
+}
+p{
+  margin: 20px 0;
+}
+button{
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: #fff;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  background: #490f0f;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active{
+background: var(--primary);
+}
+
+main{
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.LegalAdviceLayout nav{
+ display: flex;
+ justify-content: center;
+ gap: 30px;
+ margin: 30px 0;
+
+}
+.LegalAdviceLayout nav a {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+
+}
+.LegalAdviceLayout nav a:hover{
+  border-color: var(--primary);
+}
+.LegalAdviceLayout nav a.active{
+  background: var(--primary);
+}
+  .LegalAdvice .Advice{
+  background: rgba(74, 3, 167, 0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px,0;
+}
+
+form{
+  margin-top: 3opx;
+}
+form input, form label span, form textarea{
+  display: block;
+}
+
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: var(--secendary);
+}
+form label span {
+  margin-bottom: 10px;
+}
+
+.notfound {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* Cases History */
+
+.cases > a {
+  display: block;
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px;
+  text-decoration: none;
+}
+.cases > a:hover p {
+  color: var(--primary);
+
+}
+.cases p {
+  margin: 0;
+
+}
+.cases> a:last-child{
+  font-size: 0.8em;
+  color: #fff;
+}
+
+.Cases-Details{
+  background: #1b1825;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+
+}
+
+/* Breadcrumbs */ 
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.breadcrumbs > *{
+  display: inline-block;
+  margin-right: 10px;
+}
+.breadcrumbs .crumb:after{
+  content: '>';
+  margin-left: 10px;
+
+}
+.breadcrumbs .crumb:last-child::after{
+  display: none;
+}
+.breadcrumbs .crumb a {
+  color: #fff;
+}
